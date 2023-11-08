@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Задаём фрагмент
         DayCaseFragment dayCaseFragment = new DayCaseFragment();
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.fragment_container_view,dayCaseFragment)
